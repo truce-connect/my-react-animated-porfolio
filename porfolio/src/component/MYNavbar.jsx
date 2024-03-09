@@ -25,7 +25,7 @@ const MYNavbar = () => {
   };
   return (
     <div>
-      <Navbar expand="lg" className={ scooled ? "scrolled" : ""}>
+      <Navbar expand="lg" className={scooled ? "scrolled" : ""}>
         <Container>
           <Navbar.Brand href="#home">
             <img src={logo} alt="" />
@@ -40,7 +40,7 @@ const MYNavbar = () => {
                 className={
                   activelink === "home" ? "active navbar-link" : "navbar-link"
                 }
-                onclick={() => onUpdateActiveLink("home")}
+                onClick={() => onUpdateActiveLink("home")}
               >
                 Home
               </Nav.Link>
@@ -49,7 +49,7 @@ const MYNavbar = () => {
                 className={
                   activelink === "skills" ? "active navbar-link" : "navbar-link"
                 }
-                onclick={() => onUpdateActiveLink("skills")}
+                onClick={() => onUpdateActiveLink("skills")}
               >
                 skills
               </Nav.Link>
@@ -60,7 +60,7 @@ const MYNavbar = () => {
                     ? "active navbar-link"
                     : "navbar-link"
                 }
-                onclick={() => onUpdateActiveLink("projects")}
+                onClick={() => onUpdateActiveLink("projects")}
               >
                 projects
               </Nav.Link>
@@ -77,7 +77,12 @@ const MYNavbar = () => {
                   <img src={navicon3} alt="" />
                 </a>
               </div>
-              <button className="vvd" onclick ={() => console.log("let connect")}><span>let connect</span > </button>
+              <button
+                className="vvd"
+                onClick={() => console.log("let connect")}
+              >
+                <span>let connect</span>{" "}
+              </button>
             </span>
           </Navbar.Collapse>
         </Container>
