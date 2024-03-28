@@ -70,10 +70,10 @@ const MYNavbar = () => {
                 <a href="#">
                   <img src={navicon1} alt="" />
                 </a>
-                <a href="#">
+                <a href="https://wa.me/message/3D3OEMRJJWPYH1">
                   <img src={navicon2} alt="" />
                 </a>
-                <a href="#">
+                <a href="https://www.instagram.com/truce__connect?igsh=MWtlbTRzYjV3bHpnMQ%3D%3D&utm_source=qr">
                   <img src={navicon3} alt="" />
                 </a>
               </div>

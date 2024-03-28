@@ -4,6 +4,8 @@ import MYNavbar from "./component/MYNavbar"
 import Banner from './component/Banner'
 import Skill from './component/Skill'
 import Project from './component/Project'
+import Contact from './component/Contact'
+import { Footer } from './component/footer'
 
 function App() {
  
@@ -13,6 +15,8 @@ function App() {
       <Banner /> 
       <Skill />
       <Project />
+       <Contact/>
+      <Footer/>
     </>
   )
 }
